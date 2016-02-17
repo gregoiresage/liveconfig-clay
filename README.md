@@ -1,1 +1,1 @@
-# liveconfig-clay
+# Demo app using Clay and Liveconfig
