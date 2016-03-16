@@ -10,7 +10,7 @@ Pebble.addEventListener('showConfiguration', function(e) {
     var config = {};
     config[id] = value;
     console.log(JSON.stringify(config));
-    Pebble.sendAppMessage(config);
+    Pebble.sendAppMessage(Clay.prepareSettingsForAppMessage(config));
   });
 
   Pebble.openURL(clay.generateUrl());
