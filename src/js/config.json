@@ -6,13 +6,13 @@
     {
       "type": "toggle",
       "id": "enableBackground",
-      "appKey": "enableBackground",
+      "messageKey": "enableBackground",
       "label": "Enable Background"
     },
     {
       "type": "color",
       "id": "background",
-      "appKey": "background",
+      "messageKey": "background",
       "defaultValue": "FF0000",
       "label": "Background Color",
       "sunlight": true
